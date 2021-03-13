@@ -1,11 +1,10 @@
-package xyz.lazertechbuilds.bungeestatus;
+package xyz.lazertechbuilds.bungeestatusmotd;
 
-import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
-import xyz.lazertechbuilds.bungeestatus.listeners.OnPing;
+import xyz.lazertechbuilds.bungeestatusmotd.listeners.OnPing;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +12,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.util.concurrent.TimeUnit;
 
-public final class BungeeStatus extends Plugin {
+public final class BungeeStatusMotd extends Plugin {
 
     private static String mainServer;
     private static String motd;

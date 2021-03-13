@@ -1,4 +1,4 @@
-name: BungeeStatus
+name: BungeeStatusMotd
 version: ${project.version}
-main: xyz.lazertechbuilds.bungeestatus.BungeeStatus
+main: xyz.lazertechbuilds.bungeestatusmotd.BungeeStatusMotd
 description: Displays the status of the Spigot servers on the motd.
